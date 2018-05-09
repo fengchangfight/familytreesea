@@ -2,6 +2,7 @@
 person表的形式可以为(id, name, sex ...), relation表的形式可以为(id, from_person_id, to_person_id, relation_name)
 
 这种存储方式可以很方便地查询到一个完整地家谱，当然也有关系型数据库固有的缺点，就是不好做单人的连续的层级遍历，例如找一个人祖上十八代，那一定是对应大量的table join, 不过我这里不考虑这个问题，只专注于如何表征一个完整的家谱，并能自动排版在前端展示，最终要达到的一个效果如图
+![汉朝皇帝家谱](./han.jpg)
 
 
 
@@ -10,6 +11,7 @@ person表的形式可以为(id, name, sex ...), relation表的形式可以为(id
 这张图在数据库层面就是按照如上描述存储的，然而前端要绘制成这样的树形结构则需要花一点点小功夫。
 
 我这里使用d3的force directed graph进行绘制。d3的example图是这样的：
+![d3样本](./forced3.jpg)
 
 
 
