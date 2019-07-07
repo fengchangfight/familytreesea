@@ -1,3 +1,5 @@
+### 开发讨论请加QQ群：897619867
+
 本代码只包含local private版，数据库使用无需安装的sqlite,网站版有更多完整的功能
 
 family-tree-sea-ssr是基于vue nuxt的前端代码
