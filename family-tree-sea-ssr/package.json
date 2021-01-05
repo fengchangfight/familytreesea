@@ -19,7 +19,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap-vue": "^2.0.0-rc.9",
     "canvas-toBlob": "^1.0.0",
     "d3": "^4.13.0",
